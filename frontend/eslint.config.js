@@ -2,8 +2,11 @@ import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
+import reactRecommended from 'eslint-plugin-react/recommended'
 
 export default [
+  js.configs.recommended,
+  reactRecommended,
   { ignores: ['dist'] },
   {
     files: ['**/*.{js,jsx}'],
