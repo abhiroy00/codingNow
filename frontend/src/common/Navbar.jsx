@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    document.body.className = theme; // Corrected to `className`
+    document.body.className = theme; 
   }, [theme]);
 
   return (
@@ -51,7 +51,7 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink
-            to="/mentors"
+            to="/main/Mentor"
             className={({ isActive }) =>
               isActive
                 ? 'text-blue-500 font-semibold text-lg'

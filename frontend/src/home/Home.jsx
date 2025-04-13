@@ -273,6 +273,10 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div>
+            <h1 className='text-left bg-gradient-to-r from-amber-200 to-amber-800 bg-clip-text text-transparent md:text-4xl font-bold text-2xl'>Full Time Mentors</h1>
+            
+          </div>
         </div>
       </div>
     </div>
