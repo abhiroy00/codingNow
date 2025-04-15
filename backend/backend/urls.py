@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('mentor.urls')),  # 👈 this connects your app URLs here
+    path('api/userauth/', include('userauth.urls')),
 ]
