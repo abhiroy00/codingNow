@@ -2,8 +2,8 @@
 
 .dark-theme {
     --bg-color: #000e25;
-    --text-color: #f0f0f0;
-    --p-color: #d3d3d3;
+    --text-color: #ffffff;
+    --p-color: #bababa;
     --card-bg-color: #2a2a2a;
     --card-bg-banner: url("https://static.vecteezy.com/system/resources/thumbnails/015/452/755/small/abstract-background-horizontal-wave-lines-design-and-pattern-on-black-background-and-texture-free-vector.jpg");
     --main-bg-color: #1c2045;
@@ -14,7 +14,7 @@
 .light-theme {
     --bg-color: #ffffff;
     --text-color: #000000;
-    --p-color: #2f2f2f;
+    --p-color: #3c3c3c;
     --card-bg-color: #f0f0f0;
     --main-bg-color: #dcdcdc;
     --card-bg-banner: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-netted-document-background-material-image_125773.jpg")

@@ -24,9 +24,9 @@ const Mentor = () => {
           <p style={{ color: 'var(--p-color)' }}>Discover the latest additions to our Mentors community! Meet the fresh faces ready to guide and inspire you on your journey.</p>
           <div className="sticky top-[72px] z-30 w-full my-4">
             <div className="flex w-full flex-col items-center gap-4 sm:flex-row">
-              <form id="search" className="border w-[100%] h-10 rounded-full cursor-text">
+              <form id="search" className="border w-[100%] h-10 rounded-full cursor-text" style={{ backgroundColor: 'var(--bg-color)' }}>
                 <FaSearch className="relative top-3 left-3" />
-                <input className="relative bottom-2.5 left-10 w-[90%]" id="search" placeholder="Search here..." type="text" />
+                <input className="relative bottom-2.5 left-10 w-[80%]" id="search" placeholder="Search here..." type="text" />
               </form>
             </div>
           </div>

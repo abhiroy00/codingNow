@@ -138,7 +138,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/mentors"
+              to="/main/Mentor"
               className={({ isActive }) =>
                 isActive
                   ? 'text-blue-500 font-semibold text-lg ml-[20px]'
