@@ -1329,7 +1329,7 @@ const Home = () => {
                     aria-controls="accordion-item-1"
                     aria-expanded={openItem === 1}
                     onClick={() => toggleItem(1)}
-                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base text-grey-800 dark:text-white md:text-base"
+                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base  md:text-base"
                   >
                     What is the primary goal of ProPeers?
                     {openItem === 1 ? <FaMinus /> : <FaPlus />}
@@ -1357,7 +1357,7 @@ const Home = () => {
                     aria-controls="accordion-item-2"
                     aria-expanded={openItem === 2}
                     onClick={() => toggleItem(2)}
-                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base text-grey-800 dark:text-white md:text-base"
+                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base  md:text-base"
                   >
                     How do I become a Mentor on ProPeers?
                     {openItem === 2 ? <FaMinus /> : <FaPlus />}
@@ -1385,7 +1385,7 @@ const Home = () => {
                     aria-controls="accordion-item-3"
                     aria-expanded={openItem === 3}
                     onClick={() => toggleItem(3)}
-                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base text-grey-800 dark:text-white md:text-base"
+                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base  md:text-base"
                   >
                     Are there any fees associated with using your mentorship services?
                     {openItem === 3 ? <FaMinus /> : <FaPlus />}
@@ -1396,7 +1396,7 @@ const Home = () => {
                     id="accordion-item-3"
                     role="region"
                     aria-labelledby="accordion-header-3"
-                    className="overflow-hidden transition-all text-sm text-grey-500 dark:text-main-10 md:text-sm"
+                    className="overflow-hidden transition-all text-sm  md:text-sm"
                   >
                     <div className="pb-4 pt-0">
                       Some mentorship services may have associated fees, depending on the mentor and the type of service. Please check the details on the platform.
@@ -1413,7 +1413,7 @@ const Home = () => {
                     aria-controls="accordion-item-4"
                     aria-expanded={openItem === 4}
                     onClick={() => toggleItem(4)}
-                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base text-grey-800 dark:text-white md:text-base"
+                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base  md:text-base"
                   >
                     How do I find the right Mentor for my needs?
                     {openItem === 4 ? <FaMinus /> : <FaPlus />}
@@ -1441,7 +1441,7 @@ const Home = () => {
                     aria-controls="accordion-item-5"
                     aria-expanded={openItem === 5}
                     onClick={() => toggleItem(5)}
-                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base text-grey-800 dark:text-white md:text-base"
+                    className="group flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-left text-base  md:text-base"
                   >
                     What can I expect from a mentorship relationship?
                     {openItem === 5 ? <FaMinus /> : <FaPlus />}
