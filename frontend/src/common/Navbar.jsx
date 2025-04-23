@@ -115,9 +115,11 @@ const Navbar = () => {
         <button className="text-xl flex" onClick={toggleTheme}>
           {theme === 'light-theme' ? <GoMoon /> : <GoSun />}
         </button>
+        <NavLink to="/login" className="text-lg hover:text-gray-400">
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
           Login
         </button>
+        </NavLink>
       </div>
       <div>
         <ul

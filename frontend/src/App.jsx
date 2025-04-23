@@ -6,6 +6,7 @@ import Left from './main/leftbar';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Footer from './common/Footer';
 import Mentor from './main/Mentor';
+import Login from './common/Login';
 
 export default function App() {
 
@@ -26,6 +27,10 @@ export default function App() {
         },
       ],
       
+    },
+    {
+      path:'/login',
+      element: <Login />,
     },
     {
     path: '/main',

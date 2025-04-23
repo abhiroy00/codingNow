@@ -1,5 +1,12 @@
 @import "tailwindcss";
-
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
 .dark-theme {
     --bg-color: #000e25;
     --text-color: #ffffff;

@@ -30,7 +30,7 @@ const Mentor = () => {
               </form>
             </div>
           </div>
-          <div className='block xl:flex w-full h-auto p-2.5 rounded-lg' style={{ backgroundColor: 'var(--main-bg-color)' }}>
+          <div className='block xl:flex w-full h-auto p-2.5 rounded-lg my-10' style={{ backgroundColor: 'var(--main-bg-color)' }}>
             <div className='xl:w-[70%] w-full h-full'>
               <div className='flex p-2 gap-2'>
                 <div className='w-[20%]'>
@@ -61,7 +61,7 @@ const Mentor = () => {
               </div>
               <p className='text-sm font-semibold'><GoGoal className='inline'/> Core Domains: Basic Programming, Programming Fundamentals, Data / Big Data Engineer</p>
             </div>
-            <div className='xl:w-[30%] h-full border-l-1 border-dashed p-2'>
+            <div className='xl:w-[30%] h-full border-l-1 border-dashed p-2 '>
               <h4 className='font-semibold '><GiStarShuriken className='inline'/>what I Offer!</h4>
               <p className='text-sm my-2' style={{color: 'var(--p-color)'}}><MdOutlineWifiCalling3 className='inline text-yellow-500'/> Audio/Video Sessions</p>
               <p className='text-sm my-2' style={{color: 'var(--p-color)'}}><GoGoal className='inline text-red-500'/> Goal Setting</p>
