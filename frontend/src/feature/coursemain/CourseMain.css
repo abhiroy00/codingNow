@@ -1,0 +1,25 @@
+.coursemainheader{
+    height: 45rem;
+    width: 100%;
+    display: flex;
+}
+.coursemainheader-left-side{
+    height: 70%;
+    width: 20%;
+}
+.coursemainheader-right-side{
+    height: 100%;
+    width: 80%;
+    overflow: scroll;
+
+}
+.coursemainheader-scroll{
+    height: auto;
+    background-color: #f5f1ec;
+    
+}
+
+.course-main-div{
+    height: 30rem;
+    width: 100%;
+}

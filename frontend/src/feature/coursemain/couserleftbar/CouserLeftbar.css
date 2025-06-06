@@ -1,0 +1,107 @@
+.home-left, .learn-left, .classroom-left, .practice-left, .projects-left, .carriar-left, 
+.mentorship-left, .job-bord-left, .refer-eran-left, .community-left {
+  padding: 10px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+}
+
+.clicked {
+  background-color:#ccced1;
+  border-radius: 30px;
+  .icon-label{
+    font-weight: 500;
+  }
+
+  
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+/* Style the "Follow Us" section */
+.follow-us {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.follow-us p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.follow-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Style individual social media icons */
+.follow-icons svg {
+  font-size: 24px;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for icons */
+.follow-icons svg:hover {
+  color: #0077b5; /* You can change this to any color you prefer */
+  transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+ .modern-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+} 
+
+.modern-icon:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.modern-icon svg {
+  font-size: 24px;
+  color:black;
+  transition: all 0.3s ease;
+}
+
+.modern-icon:hover svg {
+  color:black;
+} 
+
+/* Optional: Responsive styling for smaller screens */
+@media (max-width: 600px) {
+  .follow-icons {
+    gap: 10px;
+  }
+
+  .follow-icons svg {
+    font-size: 20px;
+  }
+}
+.icon-label{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  left: 20px;
+  top: 6px;
+}
