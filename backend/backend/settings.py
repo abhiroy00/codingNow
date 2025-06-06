@@ -44,8 +44,18 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist',
     'corsheaders',
     "phonenumber_field",
-
     'userauth'
+    'coureMentorship',
+    'coursehome',
+    'coursejobboard',
+    'courselearn',
+    'coursepractice',
+    'courseproject',
+    'courserefer',
+    'mentor',
+    'userauth',
+    'userprofile'
+
 
 ]
 
