@@ -111,6 +111,17 @@ export default function CouserLeftbar() {
           <p className='icon-label'>Refer&earn</p>
         </div>
       </Link>
+
+
+
+       <Link to="/CourseMain/coursehelp" style={{ textDecoration: "none" }}>
+  <div className={`help-left ${clicked === 'help' ? 'clicked' : ''}`} onClick={() => handleClick('help')}>
+    <div className="modern-icon">
+      <UserPlusIcon />
+    </div>
+    <p className='icon-label'>Help</p>
+  </div>
+</Link>
       
       <div className={`community-left ${clicked === 'community' ? 'clicked' : ''}`} onClick={() => handleClick('community')}>
         <div className="modern-icon">

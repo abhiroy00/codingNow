@@ -21,6 +21,7 @@ import BeginnerTrack from './feature/coursemain/coursePractice/CodingAssessments
 import AlgorithmMasteryTrack from './feature/coursemain/coursePractice/CodingAssessments/AlgorithmMasteryTrack';
 import SystemDesignTrack from './feature/coursemain/coursePractice/CodingAssessments/SystemDesignTrack';
 import JobBoard from './feature/coursemain/Jobboard/Jobboard';
+import CourseHelp from './feature/coursemain/coursehelp/CourseHelp';
 
 export default function App() {
   const router = createBrowserRouter([
@@ -81,6 +82,11 @@ export default function App() {
         {
           path: "/CourseMain/Referearn",
           element: <Referearn />
+        },
+        {
+          path:"/CourseMain/coursehelp",
+          element:<CourseHelp></CourseHelp>
+
         },
         {
           path: "/CourseMain/CourseClassroom",
