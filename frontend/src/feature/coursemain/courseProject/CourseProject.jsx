@@ -428,7 +428,7 @@ export default function CourseProject() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
+     
     </div>
   )
 }

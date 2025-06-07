@@ -17,6 +17,10 @@ import Book_a_session from './feature/coursemain/Mentorship/Mentorship_children/
 import Previous_Booking from './feature/coursemain/Mentorship/Mentorship_children/Previous_Booking';
 import Manage_Booking from './feature/coursemain/Mentorship/Mentorship_children/Manage_Booking';
 import CodingAssessments from './feature/coursemain/coursePractice/CodingAssessments/CodingAssessments';
+import BeginnerTrack from './feature/coursemain/coursePractice/CodingAssessments/BeginnerTrack';
+import AlgorithmMasteryTrack from './feature/coursemain/coursePractice/CodingAssessments/AlgorithmMasteryTrack';
+import SystemDesignTrack from './feature/coursemain/coursePractice/CodingAssessments/SystemDesignTrack';
+import JobBoard from './feature/coursemain/Jobboard/Jobboard';
 
 export default function App() {
   const router = createBrowserRouter([
@@ -48,8 +52,23 @@ export default function App() {
 
         },
         {
+          path:"/CourseMain/beginnertrack",
+          element:<BeginnerTrack></BeginnerTrack>
+
+        },
+        {
+          path:"/CourseMain/algoritmmastery",
+          element:<AlgorithmMasteryTrack></AlgorithmMasteryTrack>
+
+        },
+        {
+          path:"/CourseMain/systemdesignTrack",
+          element:<SystemDesignTrack></SystemDesignTrack>
+
+        },
+        {
           path: "/CourseMain/courseproject",
-          element: <CourseProject />
+          element:<CourseProject></CourseProject>
         },
         {
           path: "/CourseMain/CourseCarriar",
@@ -57,7 +76,7 @@ export default function App() {
         },
         {
           path: "/CourseMain/jobboard",
-          element: <Jobboard />
+          element: <JobBoard></JobBoard>
         },
         {
           path: "/CourseMain/Referearn",

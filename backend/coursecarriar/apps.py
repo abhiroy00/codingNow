@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CourseprojectConfig(AppConfig):
+class CoursecarriarConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'courseproject'
+    name = 'coursecarriar'

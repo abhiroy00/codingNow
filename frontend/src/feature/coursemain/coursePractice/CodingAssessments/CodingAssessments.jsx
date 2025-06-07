@@ -1,5 +1,6 @@
 import React from 'react';
 import { CodeBracketIcon, ClockIcon, TrophyIcon, ArrowPathIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
 
 export default function CodingAssessments() {
   const challenges = [
@@ -71,9 +72,11 @@ export default function CodingAssessments() {
                 </div>
               </div>
               <p className="text-gray-600 mb-4">Start with fundamental problems to build your coding foundation</p>
+              <Link to="/CourseMain/beginnertrack">
               <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors">
                 Start Assessment
               </button>
+              </Link>
             </div>
           </div>
 
@@ -89,9 +92,11 @@ export default function CodingAssessments() {
                 </div>
               </div>
               <p className="text-gray-600 mb-4">Master essential algorithms and data structures</p>
+              <Link to="/CourseMain/algoritmmastery">
               <button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-lg transition-colors">
                 Start Assessment
               </button>
+              </Link>
             </div>
           </div>
 
@@ -107,9 +112,11 @@ export default function CodingAssessments() {
                 </div>
               </div>
               <p className="text-gray-600 mb-4">Design scalable systems and architectures</p>
+              <Link to="/CourseMain/systemdesignTrack">
               <button className="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg transition-colors">
                 Start Assessment
               </button>
+              </Link>
             </div>
           </div>
         </div>

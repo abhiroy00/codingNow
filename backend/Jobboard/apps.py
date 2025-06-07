@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CourementorshipConfig(AppConfig):
+class JobboardConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'coureMentorship'
+    name = 'Jobboard'
